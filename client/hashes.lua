@@ -23,9 +23,9 @@ Citizen.CreateThread(function()
 
   -- Civ
   AddTextEntry("skyline", "(2002) Nissan Skyline GT-R34")
-  AddTextEntry("16challenge", "(2016) Dodge Challenger")
+  AddTextEntry("srt392", "(2011) Dodge Challenger SRT8 392")
   AddTextEntry("f82", "(2015) BMW F82 M4")
-  AddTextEntry("gtr", "(2017) Nissan GTR")
+  AddTextEntry("gtrnismo17", "(2017) Nissan GTR Nismo")
 
   -- Weapons
   AddTextEntry("WEAPON_FNP90", "FNP90")
