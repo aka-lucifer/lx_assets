@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<!-- ### ������� ���� ### -->
+		
+		<Item>
+			<modelName>w_ex_380sxmissile_4</modelName>
+			<txdName>w_ex_380sxmissile_4</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

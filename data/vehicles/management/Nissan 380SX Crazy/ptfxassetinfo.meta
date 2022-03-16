@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<CPtFxAssetInfoMgr>
+  <ptfxAssetDependencyInfos>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>weap_xs_weapons</parentName>
+      <childName>weap_380sx_vehicle_weapons</childName>
+    </Item>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>weap_380sx_vehicle_weapons</parentName>
+      <childName>veh_380sx</childName>
+    </Item>
+	 <Item type="CPtFxAssetDependencyInfo">
+      <parentName>weap_380sx_vehicle_weapons</parentName>
+      <childName>veh_khanjali</childName>
+    </Item>
+	<Item type="CPtFxAssetDependencyInfo"> 
+<parentName>veh_impexp_ruiner</parentName> 
+<childName>veh_deluxo</childName> 
+</Item> 
+<Item type="CPtFxAssetDependencyInfo"> 
+<parentName>veh_impexp_rocket</parentName> 
+<childName>veh_thruster</childName> 
+</Item>
+  </ptfxAssetDependencyInfos>
+</CPtFxAssetInfoMgr>

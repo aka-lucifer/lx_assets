@@ -40,7 +40,8 @@ files {
   "data/vehicles/**/shop_vehicle.meta",
   "data/vehicles/**/explosion.meta",
   "data/vehicles/**/weapons.meta",
-  "data/vehicles/**/weaponarchetype.meta",
+  "data/vehicles/**/weaponarchetypes.meta",
+  "data/vehicles/**/ptfxassetinfo.meta",
   "data/vehicles/**/vehiclelayouts.meta", -- It is common belief that FiveM doesn"t support custom layouts, however this is false, you just have to load them last.
 	"data/vehicles/**/dlctext.meta",
 

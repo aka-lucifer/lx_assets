@@ -26,6 +26,8 @@ Citizen.CreateThread(function()
   AddTextEntry("srt392", "(2011) Dodge Challenger SRT8 392")
   AddTextEntry("f82", "(2015) BMW F82 M4")
   AddTextEntry("gtrnismo17", "(2017) Nissan GTR Nismo")
+  AddTextEntry("na25", "(2011) Harley Davidson Road King")
+  AddTextEntry("380sx", "(Management) Nissan 380SX Crazy")
 
   -- Weapons
   AddTextEntry("WEAPON_FNP90", "FNP90")
