@@ -1,0 +1,181 @@
+------------------------------------------------------------------------------------
+-- Astrid Network Assets
+-- Designed & Written By akaLucifer#0103
+-- Releasing or Claiming this as your own is against, this resources License
+------------------------------------------------------------------------------------
+fx_version "adamant"
+game "gta5"
+
+this_is_a_map "yes"
+
+files {
+	-- Props
+
+  -- (SADOT Props)
+	"steam/props/sadot-props/pnwsigns.ytyp",
+	"data/props/sadot-props/gtxd.meta",
+
+  -- Minimap (Interiors Loading)
+  "data/minimap/interiors/**/*.gfx",
+
+	-- MLOs
+	"data/mlos/interiorproxies.meta",
+
+  -- (TIMECYCLES)
+  "data/mlos/gabz_timecycle_mods1.xml",
+  "data/mlos/gusepe_timecycle_mods_saloon.xml",
+  "data/mlos/iv_int_1_timecycle_mods_1.xml",
+  "data/mlos/nutt_timecycle_mods_1.xml",
+
+  -- (YTYP"s)
+  "stream/mlos/vespuccipd/vesp_props.ytyp",
+  "stream/mlos/int_sheriff_v2/props/v2_sheriff_props.ytyp",
+
+	-- Vehicles
+	"data/vehicles/**/handling.meta",
+  "data/vehicles/**/vehicles.meta",
+	"data/vehicles/**/carcols.meta",
+	"data/vehicles/**/carvariations.meta",
+  "data/vehicles/**/contentunlocks.meta",
+  "data/vehicles/**/shop_vehicle.meta",
+  "data/vehicles/**/explosion.meta",
+  "data/vehicles/**/weapons.meta",
+  "data/vehicles/**/weaponarchetype.meta",
+  "data/vehicles/**/vehiclelayouts.meta", -- It is common belief that FiveM doesn"t support custom layouts, however this is false, you just have to load them last.
+	"data/vehicles/**/dlctext.meta",
+
+  -- Weapons
+  "data/weapons/**/weaponcomponents.meta",
+  "data/weapons/**/weaponarchetypes.meta",
+  "data/weapons/**/weaponanimations.meta",
+  "data/weapons/**/pedpersonality.meta",
+  "data/weapons/**/loadouts.meta",
+  "data/weapons/**/pickups.meta",
+  "data/weapons/**/ptfxassetinfo.meta",
+  "data/weapons/**/weapons.meta",
+
+  -- Clothing
+  "data/clothing/addon_clothing/mp_m_freemode_01_addon_clothes_one.meta",
+  "data/clothing/addon_clothing/mp_f_freemode_01_addon_clothes_one.meta",
+
+  -- Peds
+  "data/peds/ped_pack/peds.meta",
+
+  -- IPL Loading
+  "client/ipls/mph4_gtxd.meta",
+
+  -- Weapon Sounds
+  "data/sounds/weapons/sfx/**/*.awc",
+
+  -- Sirens
+  "stream/sounds/sirens/dlc_serversideaudio/*.awc",
+	"data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.nametable",
+	"data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.rel",
+
+  -- Vehicle Sounds
+	"data/sounds/vehicles/**/**/*.dat151.rel",
+	"data/sounds/vehicles/**/**/*.dat54.rel",
+	"data/sounds/vehicles/**/**/*.dat10.rel",
+	"stream/sounds/vehicles/**/**/*.awc"
+}
+
+-- SADOT Props
+data_file "GTXD_PARENTING_DATA" "data/props/sadot-props/gtxd.meta"
+data_file "DLC_ITYP_REQUEST" "stream/props/sadot-props/pnwsigns.ytyp"
+
+-- Minimap (Interiors Loading)
+data_file "SCALEFORM_DLC_FILE" "data/minimap/interiors/**/*.gfx"
+-- data_file "GTXD_PARENTING_DATA" "data/minimap/casino_interiors/int3232302352.gfx"
+
+-- MLOs
+data_file "INTERIOR_PROXY_ORDER_FILE" "data/mlos/interiorproxies.meta"
+
+-- (TIMECYCLES)
+-- data_file "TIMECYCLEMOD_FILE" "data/mlos/gabz_timecycle_mods1.xml"
+data_file "TIMECYCLEMOD_FILE" "data/mlos/gusepe_timecycle_mods_saloon.xml"
+data_file "TIMECYCLEMOD_FILE" "data/mlos/iv_int_1_timecycle_mods_1.xml"
+data_file "TIMECYCLEMOD_FILE" "data/mlos/nutt_timecycle_mods_1.xml"
+
+-- (YTYP"s)
+data_file "DLC_ITYP_REQUEST" "stream/mlos/vespuccipd/vesp_props.ytyp"
+data_file "DLC_ITYP_REQUEST" "stream/mlos/int_sheriff_v2/props/v2_sheriff_props.ytyp"
+
+-- Vehicles
+data_file "HANDLING_FILE" "data/**/handling.meta"
+data_file "VEHICLE_METADATA_FILE" "data/**/vehicles.meta"
+data_file "CARCOLS_FILE" "data/**/carcols.meta"
+data_file "VEHICLE_VARIATION_FILE" "data/**/carvariations.meta"
+data_file "CONTENT_UNLOCKING_META_FILE" "data/**/contentunlocks.meta"
+data_file "VEHICLE_SHOP_DLC_FILE" "data/**/shop_vehicle.meta" 
+data_file "EXPLOSION_INFO_FILE" "data/**/explosion.meta"
+data_file "VEHICLE_LAYOUTS_FILE" "data/**/vehiclelayouts.meta"
+
+-- Weapons
+data_file "WEAPONCOMPONENTSINFO_FILE" "data/**/weaponcomponents.meta"
+data_file "WEAPON_METADATA_FILE" "data/**/weaponarchetypes.meta"
+data_file "WEAPON_ANIMATIONS_FILE" "data/**/weaponanimations.meta"
+data_file "PED_PERSONALITY_FILE" "data/**/pedpersonality.meta"
+data_file "LOADOUTS_FILE" "data/**/loadouts.meta"
+data_file "DLC_WEAPON_PICKUPS" "data/**/pickups.meta"
+data_file "PTFXASSETINFO_FILE" "data/**/ptfxassetinfo.meta"
+data_file "WEAPONINFO_FILE" "data/**/weapons.meta"
+
+-- Clothing
+data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/addon_clothing/mp_m_freemode_01_addon_clothes_one.meta"
+data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/addon_clothing/mp_f_freemode_01_addon_clothes_one.meta"
+
+-- Peds
+data_file "PED_METADATA_FILE" "data/peds/ped_pack/peds.meta"
+
+-- IPL Loading
+data_file "GTXD_PARENTING_DATA" "client/ipls/mph4_gtxd.meta"
+
+-- Weapon Sounds
+data_file "AUDIO_WAVEPACK" "data/sounds/weapons/sfx/resident"
+data_file "AUDIO_WAVEPACK" "data/sounds/weapons/sfx/weapons_player"
+
+-- Sirens
+data_file "AUDIO_WAVEPACK" "stream/sounds/sirens/dlc_serversideaudio"
+data_file "AUDIO_SOUNDDATA" "data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat"
+
+-- Vehicle Sounds
+-- (CIV) - Nissan R34 Skyline
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_r34sound/r34sound_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_r34sound/r34sound_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_r34sound"
+
+-- (CIV) - Nissan GTR R35
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_r352sound/dlcr352sound_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_r352sound/dlcr352sound_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_r352sound"
+
+-- (CIV) - Dodge Challenger
+data_file "AUDIO_SYNTHDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_amp.dat"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_dghmieng"
+
+-- (LEO) - Dodge Charger
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_npolchar/npolchar_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_npolchar/npolchar_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_npolchar"
+
+-- (LEO) CVPI
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_cvpiv8/cvpiv8_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_cvpiv8/cvpiv8_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_cvpiv8"
+
+-- (LEO) Taurus
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_ecoboostv6/ecoboostv6_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_ecoboostv6/ecoboostv6_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_ecoboostv6"
+
+-- Code
+client_scripts {
+	"client/casino/config.lua",
+	"client/casino/main.lua",
+	"client/ipls/*.lua",
+	"client/minimap/*.lua",
+	"client/mlos/*.lua",
+  "client/*.lua"
+}
