@@ -21,13 +21,30 @@ Citizen.CreateThread(function()
   -- Shared (LEO)
   AddTextEntry("airone", "(Emergency) Airone")
 
-  -- Civ
-  AddTextEntry("skyline", "(2002) Nissan Skyline GT-R34")
+  -- [Civ | Muscle]
   AddTextEntry("srt392", "(2011) Dodge Challenger SRT8 392")
+
+  -- [Civ | Sports]
+  AddTextEntry("skyline", "(2002) Nissan Skyline GT-R34")
   AddTextEntry("f82", "(2015) BMW F82 M4")
   AddTextEntry("gtrnismo17", "(2017) Nissan GTR Nismo")
+
+  -- [Civ | Motorcycles]
+  AddTextEntry("softail1", "(1983) Harley Davidson Softail V1")
+  AddTextEntry("softail2", "(1983) Harley Davidson Softail V2")
+  AddTextEntry("foxharley1", "(1986) Fox Harley Davidson V1")
+  AddTextEntry("foxharley2", "(1986) Fox Harley Davidson V2")
+  AddTextEntry("springer", "(1988) Harley Davidson Springer")
+  AddTextEntry("hvrod", "(1991) Harley Davidson Fat Boy")
   AddTextEntry("na25", "(2011) Harley Davidson Road King")
+  AddTextEntry("RK2019", "(2019) Harley Davidson Road King (Viclero)")
+  AddTextEntry("indian", "(2019) Indian Chief Dark Horse")
+
+  -- [Civ | Management]
   AddTextEntry("380sx", "(Management) Nissan 380SX Crazy")
+
+  -- [Civ | Offroad]
+  AddTextEntry("wheelchair", "Wheelchair")
 
   -- Weapons
   AddTextEntry("WEAPON_FNP90", "FNP90")
