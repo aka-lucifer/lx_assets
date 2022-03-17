@@ -101,6 +101,7 @@ data_file "TIMECYCLEMOD_FILE" "data/mlos/nutt_timecycle_mods_1.xml"
 data_file "DLC_ITYP_REQUEST" "stream/mlos/vespuccipd/vesp_props.ytyp"
 data_file "DLC_ITYP_REQUEST" "stream/mlos/int_sheriff_v2/props/v2_sheriff_props.ytyp"
 
+-- [WE DONT SPECIFY DIRECTION BELOW, AS SOME VEHS USE WEAPONS, AND THAT DATA IS LOADED FROM WEAPON FILES]
 -- Vehicles
 data_file "HANDLING_FILE" "data/**/handling.meta"
 data_file "VEHICLE_METADATA_FILE" "data/**/vehicles.meta"
@@ -108,10 +109,10 @@ data_file "CARCOLS_FILE" "data/**/carcols.meta"
 data_file "VEHICLE_VARIATION_FILE" "data/**/carvariations.meta"
 data_file "CONTENT_UNLOCKING_META_FILE" "data/**/contentunlocks.meta"
 data_file "VEHICLE_SHOP_DLC_FILE" "data/**/shop_vehicle.meta" 
-data_file "EXPLOSION_INFO_FILE" "data/**/explosion.meta"
 data_file "VEHICLE_LAYOUTS_FILE" "data/**/vehiclelayouts.meta"
 
 -- Weapons
+data_file "EXPLOSION_INFO_FILE" "data/**/explosion.meta"
 data_file "WEAPONCOMPONENTSINFO_FILE" "data/**/weaponcomponents.meta"
 data_file "WEAPON_METADATA_FILE" "data/**/weaponarchetypes.meta"
 data_file "WEAPON_ANIMATIONS_FILE" "data/**/weaponanimations.meta"
@@ -151,10 +152,9 @@ data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_r352sound/dlcr352sound
 data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_r352sound"
 
 -- (CIV) - Dodge Challenger
-data_file "AUDIO_SYNTHDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_amp.dat"
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_dghmieng/dghmieng_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_dghmieng"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_npolchar/npolchar_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_npolchar/npolchar_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_npolchar"
 
 -- (LEO) - Dodge Charger
 data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_npolchar/npolchar_game.dat"
