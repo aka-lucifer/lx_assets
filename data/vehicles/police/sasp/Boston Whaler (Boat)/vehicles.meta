@@ -15,7 +15,7 @@
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
-      <ptfxAssetName>null</ptfxAssetName>
+      <ptfxAssetName>veh_xs_vehicle_mods</ptfxAssetName>
       <audioNameHash>SQUALO</audioNameHash>
       <layout>LAYOUT_BOAT_PREDATOR</layout>
       <coverBoundOffsets>STANDARD_COVER_OFFSET_INFO</coverBoundOffsets>

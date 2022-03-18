@@ -14,7 +14,7 @@
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
-      <ptfxAssetName>null</ptfxAssetName>
+      <ptfxAssetName>veh_xs_vehicle_mods</ptfxAssetName>
       <audioNameHash>BLAZER4</audioNameHash>
       <layout>LAYOUT_BIKE_QUAD</layout>
       <coverBoundOffsets>BLAZER_COVER_OFFSET_INFO</coverBoundOffsets>

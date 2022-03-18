@@ -14,7 +14,7 @@
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
-      <ptfxAssetName>null</ptfxAssetName>
+      <ptfxAssetName>veh_xs_vehicle_mods</ptfxAssetName>
       <audioNameHash>POLICE</audioNameHash>
       <layout>LAYOUT_STANDARD</layout>
       <coverBoundOffsets>SHERIFF_COVER_OFFSET_INFO</coverBoundOffsets>
