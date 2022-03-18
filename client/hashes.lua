@@ -45,6 +45,7 @@ Citizen.CreateThread(function()
 
   -- [Civ | Offroad]
   AddTextEntry("wheelchair", "Wheelchair")
+  AddTextEntry("elec-chair", "Electric Chair")
 
   -- Weapons
   AddTextEntry("WEAPON_FNP90", "FNP90")
