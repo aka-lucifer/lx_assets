@@ -49,8 +49,8 @@
   </Wheels>
   <Kits>
     <Item>
-      <kitName>5043_f82_modkit</kitName>
-      <id value="5043" />   
+      <kitName>6120_f82_modkit</kitName>
+      <id value="6120" />   
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods> 
         <Item>

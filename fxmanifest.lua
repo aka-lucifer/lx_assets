@@ -28,8 +28,9 @@ files {
   "data/mlos/nutt_timecycle_mods_1.xml",
 
   -- (YTYP"s)
-  "stream/mlos/vespuccipd/vesp_props.ytyp",
-  "stream/mlos/int_sheriff_v2/props/v2_sheriff_props.ytyp",
+  "stream/mlos/UJ_Vespucci_PD/vesp_props.ytyp",
+  "stream/mlos/UJ_Sandy_PD/props/v2_sheriff_props.ytyp",
+  "stream/mlos/UJ_Prison/prison_props.ytyp",
 
 	-- Vehicles
 	"data/vehicles/**/handling.meta",
@@ -44,6 +45,9 @@ files {
   "data/vehicles/**/ptfxassetinfo.meta",
   "data/vehicles/**/vehiclelayouts.meta", -- It is common belief that FiveM doesn"t support custom layouts, however this is false, you just have to load them last.
 	"data/vehicles/**/dlctext.meta",
+
+  -- Vehicle Plates
+  "data/plates/carcols.meta",
 
   -- Weapons
   "data/weapons/**/weaponcomponents.meta",
@@ -66,18 +70,18 @@ files {
   "client/ipls/mph4_gtxd.meta",
 
   -- Weapon Sounds
-  "data/sounds/weapons/sfx/**/*.awc",
+  "stream/sounds/weapons/sfx/**/*.awc",
 
   -- Sirens
-  "stream/sounds/sirens/dlc_serversideaudio/*.awc",
-	"data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.nametable",
-	"data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.rel",
+  "stream/sounds/vehicle_sirens/dlc_serversideaudio/*.awc",
+	"data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.nametable",
+	"data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.rel",
 
   -- Vehicle Sounds
-	"data/sounds/vehicles/**/**/*.dat151.rel",
-	"data/sounds/vehicles/**/**/*.dat54.rel",
-	"data/sounds/vehicles/**/**/*.dat10.rel",
-	"stream/sounds/vehicles/**/**/*.awc"
+	"data/sounds/vehicle_engines/**/**/*.dat151.rel",
+	"data/sounds/vehicle_engines/**/**/*.dat54.rel",
+	"data/sounds/vehicle_engines/**/**/*.dat10.rel",
+	"stream/sounds/vehicle_engines/**/**/*.awc"
 }
 
 -- SADOT Props
@@ -98,8 +102,9 @@ data_file "TIMECYCLEMOD_FILE" "data/mlos/iv_int_1_timecycle_mods_1.xml"
 data_file "TIMECYCLEMOD_FILE" "data/mlos/nutt_timecycle_mods_1.xml"
 
 -- (YTYP"s)
-data_file "DLC_ITYP_REQUEST" "stream/mlos/vespuccipd/vesp_props.ytyp"
-data_file "DLC_ITYP_REQUEST" "stream/mlos/int_sheriff_v2/props/v2_sheriff_props.ytyp"
+data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Vespucci_PD/vesp_props.ytyp"
+data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Sandy_PD/props/v2_sheriff_props.ytyp"
+data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Prison/prison_props.ytyp"
 
 -- [WE DONT SPECIFY DIRECTION BELOW, AS SOME VEHS USE WEAPONS, AND THAT DATA IS LOADED FROM WEAPON FILES]
 -- Vehicles
@@ -110,6 +115,9 @@ data_file "VEHICLE_VARIATION_FILE" "data/**/carvariations.meta"
 data_file "CONTENT_UNLOCKING_META_FILE" "data/**/contentunlocks.meta"
 data_file "VEHICLE_SHOP_DLC_FILE" "data/**/shop_vehicle.meta" 
 data_file "VEHICLE_LAYOUTS_FILE" "data/**/vehiclelayouts.meta"
+
+-- Vehicle Plates
+data_file "CARCOLS_FILE" "data/plates/carcols.meta"
 
 -- Weapons
 data_file "EXPLOSION_INFO_FILE" "data/**/explosion.meta"
@@ -133,43 +141,43 @@ data_file "PED_METADATA_FILE" "data/peds/ped_pack/peds.meta"
 data_file "GTXD_PARENTING_DATA" "client/ipls/mph4_gtxd.meta"
 
 -- Weapon Sounds
-data_file "AUDIO_WAVEPACK" "data/sounds/weapons/sfx/resident"
-data_file "AUDIO_WAVEPACK" "data/sounds/weapons/sfx/weapons_player"
+data_file "AUDIO_WAVEPACK" "stream/sounds/weapons/sfx/resident"
+data_file "AUDIO_WAVEPACK" "stream/sounds/weapons/sfx/weapons_player"
 
 -- Sirens
-data_file "AUDIO_WAVEPACK" "stream/sounds/sirens/dlc_serversideaudio"
-data_file "AUDIO_SOUNDDATA" "data/sounds/sirens/dlc_serversideaudio/serversideaudio_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_sirens/dlc_serversideaudio"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat"
 
 -- Vehicle Sounds
 -- (CIV) - Nissan R34 Skyline
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_r34sound/r34sound_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_r34sound/r34sound_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_r34sound"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_r34sound/r34sound_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_r34sound/r34sound_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_r34sound"
 
 -- (CIV) - Nissan GTR R35
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_r352sound/dlcr352sound_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_r352sound/dlcr352sound_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_r352sound"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_r352sound/dlcr352sound_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_r352sound/dlcr352sound_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_r352sound"
 
 -- (CIV) - Dodge Challenger
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/civ/dlc_npolchar/npolchar_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/civ/dlc_npolchar/npolchar_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/civ/dlc_npolchar"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_npolchar"
 
 -- (LEO) - Dodge Charger
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_npolchar/npolchar_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_npolchar/npolchar_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_npolchar"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_npolchar"
 
 -- (LEO) CVPI
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_cvpiv8/cvpiv8_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_cvpiv8/cvpiv8_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_cvpiv8"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_cvpiv8"
 
 -- (LEO) Taurus
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicles/police/dlc_ecoboostv6/ecoboostv6_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicles/police/dlc_ecoboostv6/ecoboostv6_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/police/dlc_ecoboostv6"
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_ecoboostv6/ecoboostv6_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_ecoboostv6/ecoboostv6_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_ecoboostv6"
 
 -- Code
 client_scripts {
