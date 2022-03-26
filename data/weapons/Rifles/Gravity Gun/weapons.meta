@@ -6,7 +6,7 @@
       <WeaponSlots>
         <Item>
           <OrderNumber value="91" />
-          <Entry>SLOT_DELETER</Entry>
+          <Entry>SLOT_GRAVITY</Entry>
         </Item>
       </WeaponSlots>
     </Item>
@@ -15,7 +15,7 @@
     <WeaponSlots>
       <Item>
         <OrderNumber value="31" />
-        <Entry>SLOT_DELETER</Entry>
+        <Entry>SLOT_GRAVITY</Entry>
       </Item>
     </WeaponSlots>
   </SlotBestOrder>
@@ -30,10 +30,10 @@
     <Item>
       <Infos>
         <Item type="CWeaponInfo">
-          <Name>WEAPON_DELETER</Name>
-          <Model>w_ar_deleter</Model>
+          <Name>WEAPON_GRAVITY</Name>
+          <Model>w_ar_gravity</Model>
           <Audio>AUDIO_ITEM_CARBINERIFLE</Audio>
-          <Slot>SLOT_DELETER</Slot>
+          <Slot>SLOT_GRAVITY</Slot>
           <DamageType>BULLET</DamageType>
           <Explosion>
             <Default>DONTCARE</Default>
@@ -261,7 +261,7 @@
           <FirstPersonReticuleStyleHash />
           <PickupHash>PICKUP_WEAPON_CARBINERIFLE</PickupHash>
           <MPPickupHash/>
-          <HumanNameHash>WT_RIFLE_DELETER</HumanNameHash>
+          <HumanNameHash>WT_RIFLE_GRAVITY</HumanNameHash>
           <MovementModeConditionalIdle>MMI_2Handed</MovementModeConditionalIdle>
           <StatName>CRBNRIFLE</StatName>
           <KnockdownCount value="-1" />

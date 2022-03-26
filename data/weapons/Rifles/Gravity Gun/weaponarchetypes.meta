@@ -3,8 +3,8 @@
 <CWeaponModelInfo__InitDataList>
 	<InitDatas>
 		<Item>
-			<modelName>W_AR_DELETER</modelName>
-			<txdName>W_AR_DELETER</txdName>
+			<modelName>W_AR_GRAVITY</modelName>
+			<txdName>W_AR_GRAVITY</txdName>
 			<ptfxAssetName>null</ptfxAssetName>
 			<lodDist value="50"/>
 		</Item>

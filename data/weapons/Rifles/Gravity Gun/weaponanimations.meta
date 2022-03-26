@@ -3,7 +3,7 @@
   <WeaponAnimationsSets>
     <Item key="Default">
       <WeaponAnimations>
-        <Item key="WEAPON_DELETER">
+        <Item key="WEAPON_GRAVITY">
           <CoverMovementClipSetHash>cover@move@base@2h</CoverMovementClipSetHash>
           <CoverMovementExtraClipSetHash>cover@move@extra@2h</CoverMovementExtraClipSetHash>
           <CoverAlternateMovementClipSetHash>cover@move@ai@base@2h</CoverAlternateMovementClipSetHash>
@@ -52,7 +52,7 @@
     <Item key="FirstPerson">
       <Fallback>Default</Fallback>
       <WeaponAnimations>
-       <Item key="WEAPON_DELETER">
+       <Item key="WEAPON_GRAVITY">
 		      <MovementOverrideClipSetHash>move_m@generic</MovementOverrideClipSetHash>
           <CoverMovementClipSetHash>cover@first_person@move@base@2h</CoverMovementClipSetHash>
           <CoverMovementExtraClipSetHash>cover@first_person@move@extra@2h</CoverMovementExtraClipSetHash>
@@ -115,7 +115,7 @@
     <Item key="FirstPersonAiming">
       <Fallback>Default</Fallback>
       <WeaponAnimations>
-        <Item key="WEAPON_DELETER">
+        <Item key="WEAPON_GRAVITY">
           <CoverMovementClipSetHash>cover@first_person@move@base@2h</CoverMovementClipSetHash>
           <CoverMovementExtraClipSetHash>cover@first_person@move@extra@2h</CoverMovementExtraClipSetHash>
           <CoverAlternateMovementClipSetHash>cover@move@ai@base@2h</CoverAlternateMovementClipSetHash>
@@ -176,7 +176,7 @@
     <Item key="FirstPersonRNG">
       <Fallback>Default</Fallback>
       <WeaponAnimations>
-         <Item key="WEAPON_DELETER">
+         <Item key="WEAPON_GRAVITY">
           <CoverMovementClipSetHash>cover@first_person@move@base@2h</CoverMovementClipSetHash>
           <CoverMovementExtraClipSetHash>cover@first_person@move@extra@2h</CoverMovementExtraClipSetHash>
           <CoverAlternateMovementClipSetHash>cover@move@ai@base@2h</CoverAlternateMovementClipSetHash>
@@ -237,7 +237,7 @@
     <Item key="FirstPersonScope">
       <Fallback>Default</Fallback>
       <WeaponAnimations>
-        <Item key="WEAPON_DELETER">
+        <Item key="WEAPON_GRAVITY">
           <CoverMovementClipSetHash>cover@first_person@move@base@2h</CoverMovementClipSetHash>
           <CoverMovementExtraClipSetHash>cover@first_person@move@extra@2h</CoverMovementExtraClipSetHash>
           <CoverAlternateMovementClipSetHash>cover@move@ai@base@2h</CoverAlternateMovementClipSetHash>
