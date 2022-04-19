@@ -87,7 +87,7 @@
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
 	  <dashboardType>VDT_TAILGATER</dashboardType>
-      <vehicleClass>VC_COMPACT</vehicleClass>
+      <vehicleClass>VC_SEDAN</vehicleClass>
       <wheelType>VWT_SPORT</wheelType>
       <trailers />
       <additionalTrailers />
