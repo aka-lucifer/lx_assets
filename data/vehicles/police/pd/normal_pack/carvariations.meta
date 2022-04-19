@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+	<variationData>
+	  <Item>
+		 <modelName>pd1</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6701_valorcvpi_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="2" />
+		 <sirenSettings value="6161539999" />
+	  </Item>
+	  <Item>
+		 <modelName>pd3</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6702_valorfpiusetina_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="8923235443522346" />
+	  </Item>
+	  <Item>
+		 <modelName>pd4</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6703_valor_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="5144891333333" />
+	  </Item>
+	  <Item>
+		 <modelName>pd5</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6704_valorfpiu_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="4448189312835" />
+	  </Item>
+	  <Item>
+		 <modelName>pd6</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6705_valor_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="532864176529" />
+	  </Item>
+	  <Item>
+		 <modelName>pd8</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  0
+				  70
+				  0
+				  0
+				  0
+				  0
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6706_setinaf150_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="2" />
+		 <sirenSettings value="3722134049239" />
+	  </Item>
+	  <Item>
+		 <modelName>pd9</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6707_valortahoeset_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="4448189312835" />
+	  </Item>
+	  <Item>
+		 <modelName>pd7</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6708_sfpisvalor_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="9999888111662" />
+	  </Item>
+	  <Item>
+		 <modelName>pd10</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6709_valordurango_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="55111111998" />
+	  </Item>
+	  <Item>
+		 <modelName>pd2</modelName>
+		 <colors>
+			<Item>
+			   <indices content="char_array">
+				  134
+				  134
+				  134
+				  29
+				  53
+				  54
+			   </indices>
+			   <liveries />
+			</Item>
+		 </colors>
+		 <kits>
+			<Item>6710_valorcs_modkit</Item>
+		 </kits>
+		 <windowsWithExposedEdges />
+		 <plateProbabilities>
+			<Probabilities>
+			   <Item>
+				  <Name>Police guv plate</Name>
+				  <Value value="100" />
+			   </Item>
+			</Probabilities>
+		 </plateProbabilities>
+		 <lightSettings value="1" />
+		 <sirenSettings value="5144891333333" />
+	  </Item>
+	</variationData>
+</CVehicleModelInfoVariation>
