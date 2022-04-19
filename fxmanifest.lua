@@ -74,9 +74,6 @@ files {
 	"data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.nametable",
 	"data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat54.rel",
 
-  -- Vehicle Sounds
-  "stream/sounds/vehicles/sfx/**/*.awc",
-
   -- Addon Vehicle Sounds
 	"data/sounds/vehicle_engines/**/**/*.dat151.rel",
 	"data/sounds/vehicle_engines/**/**/*.dat54.rel",
@@ -145,10 +142,6 @@ data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_sirens/dlc_serversideaudio"
 data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_sirens/dlc_serversideaudio/serversideaudio_sounds.dat"
 
 -- Vehicle Sounds
--- (Heli Replacements)
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/sfx/streamed_vehicles"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicles/sfx/streamed_vehicles_low_latency"
-
 -- (CIV) - Nissan R34 Skyline
 data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_r34sound/r34sound_game.dat"
 data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_r34sound/r34sound_sounds.dat"
