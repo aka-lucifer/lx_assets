@@ -132,22 +132,28 @@ Citizen.CreateThread(function()
   AddTextEntry("auroras", "(2022) Progen Aurora Sport")
 
   -- Weapons
-  AddTextEntry("WEAPON_FNP90", "FNP90")
-	AddTextEntry("WEAPON_HK516", "HK516")
-  AddTextEntry("WEAPON_L119A2", "L119A2")
-	AddTextEntry("WEAPON_M16", "M16")
-	AddTextEntry("WEAPON_M82", "M82")
-  AddTextEntry("WEAPON_M249S", "M249S")
-  AddTextEntry("WEAPON_MDR2", "DT MDR 762x51")
-  AddTextEntry("WEAPON_NSR9", "NSR9")
-  AddTextEntry("WEAPON_P88", "P88")
-  AddTextEntry("WEAPON_S101HR", "S101HR")
-  AddTextEntry("WEAPON_SHWEND", "SHWEND")
-  AddTextEntry("WEAPON_SR25", "SR-25")
-  AddTextEntry("WEAPON_TOZ", "Toz Rifle")
-  AddTextEntry("WEAPON_UZI9MM", "UZI 9MM")
-  AddTextEntry("WEAPON_WINCHESTER", "Winchester Rifle")
-  AddTextEntry("WEAPON_WINCHESTER", "Winchester Rifle")
-  AddTextEntry("WEAPON_M45A1", "M45A1")
-  AddTextEntry("WEAPON_G19", "Glock 19")
+  AddTextEntry("WEAPON_GRAVITY", "Gravity Gun")
+
+  -- [Weapons | Pistols]
+  AddTextEntry("WEAPON_G19", "Glock 19 RMR")
+  AddTextEntry("WEAPON_G17", "Glock 17")
+  AddTextEntry("WEAPON_P226", "P226")
+
+  -- [Weapons | SMGs]
+  AddTextEntry("WEAPON_MP5", "MP5")
+  AddTextEntry("WEAPON_MP9a", "MP9")
+  AddTextEntry("WEAPON_MPX", "Sig Sauer MPX")
+  AddTextEntry("WEAPON_PP19", "PP19")
+
+  -- [Weapons | Rifles]
+  AddTextEntry("WEAPON_HK416B", "HK416")
+  AddTextEntry("WEAPON_MM4", "M4")
+  AddTextEntry("WEAPON_fbiarb", "AR15")
+  AddTextEntry("WEAPON_MK18", "MK18")
+
+  -- [Weapons | Shotguns]
+  AddTextEntry("WEAPON_M870", "M870")
+
+  -- [Weapons | Snipers]
+  AddTextEntry("WEAPON_M700", "M700")
 end)
