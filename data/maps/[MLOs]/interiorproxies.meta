@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+  <startFrom value="2000" />
+  <filePathHash value="0" />
+  <proxies>
+    <!-- Bayview_Lodge -->
+    <Item>int_motel_milo_</Item>
+    <Item>int_motel_milo2_</Item>
+    <Item>int_motel_milo3_</Item>
+    <Item>int_motel_milo4_</Item>
+    <Item>int_motel_milo5_</Item>
+    <Item>int_motel_milo6_</Item>
+    <Item>int_motel_milo7_</Item>
+    <Item>int_motel_milo8_</Item>
+    <Item>int_motel_milo9_</Item>
+    <Item>int_motel_milo10_</Item>
+    <Item>int_motel_milo11_</Item>
+
+    <!-- Bayview_Motel -->
+    <Item>int_motel_milo_</Item>
+    <Item>int_motel_milo2_</Item>
+    <Item>int_motel_milo3_</Item>
+    <Item>int_motel_milo4_</Item>
+    <Item>int_motel_milo5_</Item>
+    <Item>int_motel_milo6_</Item>
+    <Item>int_motel_milo7_</Item>
+    <Item>int_motel_milo8_</Item>
+    <Item>int_motel_milo9_</Item>
+    <Item>int_motel_milo10_</Item>
+    <Item>int_motel_milo11_</Item>
+
+    <!-- Bayview_Store -->
+    <Item>int_genstore_milo_</Item>
+
+    <!-- Bean Machine -->
+    <Item>rflx_beanmachine_milo_</Item>
+
+    <!-- Burgershot -->
+    <Item>gn_burgershot_milo</Item>
+
+    <!-- Cluckin_Bell -->
+    <Item>tfrp_kt1_09_cbinterior_kt1_09_seoul_milo_</Item>
+
+    <!-- Gabz_LostMC -->
+    <Item>gabz_biker_milo_</Item>
+    <Item>lost_garage_milo_</Item>
+
+    <!-- Gabz_MRPD -->
+    <Item>gabz_mrpd_milo_</Item>
+    <Item>hei_dt1_19_interior_0_heist_police_dlc_milo_</Item>
+
+    <!-- Highway_PD -->
+    <Item>v_matus_chp_basement_mlo</Item>
+    <Item>v_matus_chp_mlo</Item>
+
+    <!-- Paleto_FD -->
+    <Item>fst_paleto_milo_</Item>
+
+    <!-- Paleto_Gas -->
+    <Item>int_patoche_wc_milo_</Item>
+    <Item>int_mecano_nord_milo_</Item>
+    <Item>int_patoche_shop2_nord_milo_</Item>
+    <Item>shop_nord_milo_</Item>
+
+    <!-- Paleto_Henhouse -->
+    <Item>henhouse_milo</Item>
+
+    <!-- Paleto_Medical -->
+    <Item>slb2k11_paleto_med_milo</Item>
+
+    <!-- Pillbox_Medical_Center -->
+    <Item>gabz_pillbox_milo_</Item>
+
+    <!-- Ranger_Hut -->
+    <Item>ranger_hut_milo_</Item>
+
+    <!-- Rebel_Radio -->
+    <Item>int_rebelrad_milo_</Item>
+    <Item>int_rebelserv_milo_</Item>
+    
+    <!-- Rockford_247 -->
+    <Item>rockford_gasstation</Item>
+
+    <!-- Sandy_Fire_Department -->
+    <Item>ult-firedept-3_milo_</Item>
+
+    <!-- Sandy_Medical_Center -->
+    <Item>slb2k11_sandymedical_mlo</Item>
+
+    <!-- Sandy_Trees -->
+    <Item>SandyTrees</Item>
+
+    <!-- UJ_Prison -->
+    <Item>int_prison_first_milo_</Item>
+    <Item>int_prison_main_milo_</Item>
+    <Item>int_prison_recep_milo_</Item>
+    <Item>int_prison_second_milo_</Item>
+
+    <!-- UJ_Sandy_PD -->
+    <Item>lr_cs4_10_interior_v_sheriff_milo_</Item>
+    <Item>int_sheriff_first_milo_</Item>
+    <Item>int_sheriff_main_milo_</Item>
+    <Item>int_sheriff_second_milo_</Item>
+    <Item>int_sheriff_stairs1_milo_</Item>
+    <Item>int_sheriff_stairs2_milo_</Item>
+
+    <!-- UJ_Yellow_Jack -->
+    <Item>int_hickbartop_milo_</Item>
+    <Item>lr_cs4_14_interior_v_hicksbar_milo_</Item>
+
+    <!-- Vinewood_247 -->
+    <Item>v_plaza_milo</Item>
+
+    <!-- Wine_Vineyard -->
+    <Item>int_italy2_milo_</Item>
+
+    <!-- Zancudo_247 -->
+    <Item>west_hw_shop_milo_</Item>
+  </proxies>
+</SInteriorOrderData>

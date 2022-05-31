@@ -19,18 +19,13 @@ files {
   "data/minimap/interiors/**/*.gfx",
 
 	-- MLOs
-	"data/mlos/interiorproxies.meta",
+	"data/maps/interiorproxies.meta",
 
   -- (TIMECYCLES)
-  "data/mlos/gabz_timecycle_mods1.xml",
-  "data/mlos/gusepe_timecycle_mods_saloon.xml",
-  "data/mlos/iv_int_1_timecycle_mods_1.xml",
-  "data/mlos/nutt_timecycle_mods_1.xml",
+  "data/maps/[MLOs]/*.xml",
 
   -- (YTYP"s)
-  "stream/mlos/UJ_Vespucci_PD/vesp_props.ytyp",
-  "stream/mlos/UJ_Sandy_PD/props/v2_sheriff_props.ytyp",
-  "stream/mlos/UJ_Prison/prison_props.ytyp",
+  "stream/maps/[MLOs]/**/props/*.ytyp",
 
 	-- Vehicles
 	"data/vehicles/**/handling.meta",
@@ -93,15 +88,10 @@ data_file "SCALEFORM_DLC_FILE" "data/minimap/interiors/**/*.gfx"
 data_file "INTERIOR_PROXY_ORDER_FILE" "data/mlos/interiorproxies.meta"
 
 -- (TIMECYCLES)
--- data_file "TIMECYCLEMOD_FILE" "data/mlos/gabz_timecycle_mods1.xml"
-data_file "TIMECYCLEMOD_FILE" "data/mlos/gusepe_timecycle_mods_saloon.xml"
-data_file "TIMECYCLEMOD_FILE" "data/mlos/iv_int_1_timecycle_mods_1.xml"
-data_file "TIMECYCLEMOD_FILE" "data/mlos/nutt_timecycle_mods_1.xml"
+data_file "TIMECYCLEMOD_FILE" "data/maps/[MLOs]/*.xml"
 
 -- (YTYP"s)
-data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Vespucci_PD/vesp_props.ytyp"
-data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Sandy_PD/props/v2_sheriff_props.ytyp"
-data_file "DLC_ITYP_REQUEST" "stream/mlos/UJ_Prison/prison_props.ytyp"
+data_file "DLC_ITYP_REQUEST" "stream/maps/[MLOs]/**/props/*.ytyp"
 
 -- [WE DONT SPECIFY DIRECTION BELOW, AS SOME VEHS USE WEAPONS, AND THAT DATA IS LOADED FROM WEAPON FILES]
 -- Vehicles

@@ -1,3 +1,7 @@
+RegisterCommand("mlo_tp", function()
+  SetEntityCoords(PlayerPedId(), 1200.41900000, -1474.20900000, 38.13627000)
+end)
+
 Citizen.CreateThread(function()
   -- SASP
   AddTextEntry("sasp1", "(2011 - SASP) Ford CVPI")
@@ -131,7 +135,7 @@ Citizen.CreateThread(function()
   AddTextEntry("765lt", "(2020) McLaren 765LT")
   AddTextEntry("auroras", "(2022) Progen Aurora Sport")
 
-  -- Weapons
+  -- [Weapons | Staff]
   AddTextEntry("WEAPON_GRAVITY", "Gravity Gun")
 
   -- [Weapons | Pistols]
