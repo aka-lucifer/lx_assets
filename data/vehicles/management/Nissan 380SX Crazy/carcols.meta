@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CVehicleModelInfoVarGlobal>    
   <Kits>
     <Item>
-      <kitName>5045_380sx_modkit</kitName>
-      <id value="5045" />	 	  
+      <kitName>8635_380sx_modkit</kitName>
+      <id value="8635" />	 	  
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods>
 		<Item>
