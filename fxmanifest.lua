@@ -55,8 +55,8 @@ files {
   "data/weapons/**/weapons.meta",
 
   -- Clothing
-  "data/clothing/addon_clothing/mp_m_freemode_01_addon_clothes_one.meta",
-  "data/clothing/addon_clothing/mp_f_freemode_01_addon_clothes_one.meta",
+  "data/clothing/[Addon]/mp_m_freemode_01_addon_clothes_one.meta",
+  "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta",
 
   -- Peds
   "data/peds/ped_pack/peds.meta",
