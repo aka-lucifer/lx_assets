@@ -52,14 +52,16 @@ Citizen.CreateThread(function()
 
   -- [Civ | Muscle]
   AddTextEntry("srt392", "(2011) Dodge Challenger SRT8 392")
-  AddTextEntry("16charger", "(2016) Dodge Charger SXT | R/T | SRT")
   AddTextEntry("13fmb302", "(2013) Ford Mustang Boss 302")
+  AddTextEntry("06chargerrt", "(2006) Dodge Charger RT")
+  AddTextEntry("fastback", "(1967) Ford Mustang Fastback")
+  AddTextEntry("ss69", "(1969) Chevrolet Camaro SS")
 
   -- [Civ | Sports]
   AddTextEntry("skyline", "(2002) Nissan Skyline GT-R34")
   AddTextEntry("f82", "(2015) BMW F82 M4")
   AddTextEntry("gtrnismo17", "(2017) Nissan GTR Nismo")
-  AddTextEntry("350gt", "(2006) Nissan Skyline Sedan 350GT")
+  AddTextEntry("350gt", "(2006) Nissan Skyline 350GT")
   AddTextEntry("a8audi", "(2008) Audi A8")
   AddTextEntry("3000gt", "(1999) Mitsubishi 3000 GT")
   AddTextEntry("m3e30", "(1991) BMW E90 M3")
@@ -78,8 +80,8 @@ Citizen.CreateThread(function()
 
   -- [Civ | Motorcycles]
   AddTextEntry("softail1", "(1983) Harley Davidson Softail V1")
-  AddTextEntry("foxharley1", "(1986) Fox Harley Davidson V1")
-  AddTextEntry("foxharley2", "(1986) Fox Harley Davidson V2")
+  AddTextEntry("foxharley1", "(1986) Harley Davidson Fox V1")
+  AddTextEntry("foxharley2", "(1986) Harley Davidson Fox V2")
   AddTextEntry("springer", "(1988) Harley Davidson Springer")
   AddTextEntry("hvrod", "(1991) Harley Davidson Fat Boy")
   AddTextEntry("na25", "(2011) Harley Davidson Road King")
@@ -94,10 +96,8 @@ Citizen.CreateThread(function()
   AddTextEntry("elec-chair", "Electric Chair")
 
   -- [Civ | Sports Classic]
-  AddTextEntry("fastback", "(1967) Ford Mustang Fastback")
   AddTextEntry("aamx", "(1971) AMC Javelin-AMX")
   AddTextEntry("70zr1", "(1970) Chevrolet Corvette ZR1 (C3)")
-  AddTextEntry("ss69", "(1969) Chevrolet Camero SS")
 
   -- [Civ | SUVs]
   AddTextEntry("ix35", "(2012) Hyundai IX35")
@@ -117,7 +117,6 @@ Citizen.CreateThread(function()
   AddTextEntry("190e", "(1990) Mercedes-Benz 190E Evolution II")
   AddTextEntry("ipl", "(2012) Infiniti IPL G")
   AddTextEntry("e34", "(1995) BMW M5 E34")
-  AddTextEntry("06chargerrt", "(2006) Dodge Charger RT")
 
   -- [Civ | Coupes]
   AddTextEntry("cooperworks", "(2012) Mini Cooper")
@@ -131,7 +130,6 @@ Citizen.CreateThread(function()
   -- [Civ | Super]
   AddTextEntry("430s", "(2007) Ferrari 430 Scuderia")
   AddTextEntry("vip8", "(2008) Dodge Viper")
-  AddTextEntry("pgt3", "(2019) Porsche 911 GT3 RS")
   AddTextEntry("765lt", "(2020) McLaren 765LT")
   AddTextEntry("auroras", "(2022) Progen Aurora Sport")
 
