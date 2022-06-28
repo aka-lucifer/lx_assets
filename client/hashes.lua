@@ -50,6 +50,10 @@ Citizen.CreateThread(function()
   AddTextEntry("airone", "(Emergency) Airone")
   AddTextEntry("mrap", "(Emergency | Full Armoured) MRAP")
 
+  -- Community Police
+  AddTextEntry("pubcop", "(Community Police) Ford Taurus")
+  AddTextEntry("pubcop2", "(Community Police) Ford Explorer")
+
   -- [Civ | Muscle]
   AddTextEntry("srt392", "(2011) Dodge Challenger SRT8 392")
   AddTextEntry("13fmb302", "(2013) Ford Mustang Boss 302")
