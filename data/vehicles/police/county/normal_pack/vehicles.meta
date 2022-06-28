@@ -6,7 +6,7 @@
 	 <Item>
       <modelName>so1</modelName>
       <txdName>so1</txdName>
-      <handlingId>POLICE2</handlingId>
+      <handlingId>so1</handlingId>
       <gameName>so1</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -129,7 +129,7 @@
     <Item>
       <modelName>so3</modelName>
       <txdName>so3</txdName>
-      <handlingId>13FPIU</handlingId>
+      <handlingId>priceFPIS</handlingId>
       <gameName>so3</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -264,7 +264,7 @@
     <Item>
       <modelName>so4</modelName>
       <txdName>so4</txdName>
-      <handlingId>charger</handlingId>
+      <handlingId>so4</handlingId>
       <gameName>so4</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -387,7 +387,7 @@
     <Item>
       <modelName>so5</modelName>
       <txdName>so5</txdName>
-      <handlingId>16Fpiu</handlingId>
+      <handlingId>priceFPIS</handlingId>
       <gameName>so5</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -513,7 +513,7 @@
     <Item>
       <modelName>so6</modelName>
       <txdName>so6</txdName>
-      <handlingId>charger</handlingId>
+      <handlingId>so4</handlingId>
       <gameName>so6</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -636,7 +636,7 @@
     <Item>
       <modelName>so8</modelName>
       <txdName>so8</txdName>
-      <handlingId>F150</handlingId>
+      <handlingId>so8</handlingId>
       <gameName>so8</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -760,7 +760,7 @@
     <Item>
       <modelName>so9</modelName>
       <txdName>so9</txdName>
-      <handlingId>18tahoew</handlingId>
+      <handlingId>so9</handlingId>
       <gameName>so9</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -1128,7 +1128,7 @@
     <Item>
       <modelName>so2</modelName>
       <txdName>so2</txdName>
-      <handlingId>POLICE3</handlingId>
+      <handlingId>so1</handlingId>
       <gameName>so2</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>

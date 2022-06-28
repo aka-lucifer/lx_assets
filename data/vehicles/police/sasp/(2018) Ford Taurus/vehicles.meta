@@ -6,7 +6,7 @@
     <Item>
       <modelName>sasp8</modelName>
       <txdName>sasp8</txdName>
-      <handlingId>TAURUS</handlingId>
+      <handlingId>sasp8</handlingId>
       <gameName>sasp8</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -15,7 +15,7 @@
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
       <ptfxAssetName>veh_xs_vehicle_mods</ptfxAssetName>
-      <audioNameHash>ecoboostv6</audioNameHash>
+      <audioNameHash>WINDSOR</audioNameHash>
       <layout>LAYOUT_STANDARD</layout>
       <coverBoundOffsets>SHERIFF_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>

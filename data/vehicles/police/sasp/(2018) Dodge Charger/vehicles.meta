@@ -6,7 +6,7 @@
     <Item>
       <modelName>sasp4</modelName>
       <txdName>sasp4</txdName>
-      <handlingId>18Charger</handlingId>
+      <handlingId>sasp4</handlingId>
       <gameName>sasp4</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -15,7 +15,7 @@
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
       <ptfxAssetName>veh_xs_vehicle_mods</ptfxAssetName>
-      <audioNameHash>npolchar</audioNameHash>
+      <audioNameHash>WINDSOR</audioNameHash>
       <layout>LAYOUT_STANDARD</layout>
       <coverBoundOffsets>SHERIFF_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>

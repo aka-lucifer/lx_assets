@@ -6,7 +6,7 @@
     <Item>
       <modelName>sasp2</modelName>
       <txdName>sasp2</txdName>
-      <handlingId>TAHOE</handlingId>
+      <handlingId>sasp2</handlingId>
       <gameName>sasp2</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>

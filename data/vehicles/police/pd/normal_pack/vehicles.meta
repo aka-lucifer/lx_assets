@@ -6,7 +6,7 @@
 	 <Item>
       <modelName>pd1</modelName>
       <txdName>pd1</txdName>
-      <handlingId>POLICE2</handlingId>
+      <handlingId>pd1</handlingId>
       <gameName>pd1</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -129,7 +129,7 @@
     <Item>
       <modelName>pd3</modelName>
       <txdName>pd3</txdName>
-      <handlingId>13FPIU</handlingId>
+      <handlingId>PDFPIU</handlingId>
       <gameName>pd3</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -264,7 +264,7 @@
     <Item>
       <modelName>pd4</modelName>
       <txdName>pd4</txdName>
-      <handlingId>charger</handlingId>
+      <handlingId>pdchargers</handlingId>
       <gameName>pd4</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -387,7 +387,7 @@
     <Item>
       <modelName>pd5</modelName>
       <txdName>pd5</txdName>
-      <handlingId>16Fpiu</handlingId>
+      <handlingId>PDFPIU</handlingId>
       <gameName>pd5</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -513,7 +513,7 @@
     <Item>
       <modelName>pd6</modelName>
       <txdName>pd6</txdName>
-      <handlingId>charger</handlingId>
+      <handlingId>pdchargers</handlingId>
       <gameName>pd6</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -636,7 +636,7 @@
     <Item>
       <modelName>pd8</modelName>
       <txdName>pd8</txdName>
-      <handlingId>F150</handlingId>
+      <handlingId>pdf150</handlingId>
       <gameName>pd8</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -760,7 +760,7 @@
     <Item>
       <modelName>pd9</modelName>
       <txdName>pd9</txdName>
-      <handlingId>18tahoew</handlingId>
+      <handlingId>pdtahoes</handlingId>
       <gameName>pd9</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -886,7 +886,7 @@
     <Item>
       <modelName>pd7</modelName>
       <txdName>pd7</txdName>
-      <handlingId>priceFPIS</handlingId>
+      <handlingId>PDFPIU</handlingId>
       <gameName>pd7</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
@@ -1128,7 +1128,7 @@
     <Item>
       <modelName>pd2</modelName>
       <txdName>pd2</txdName>
-      <handlingId>POLICE3</handlingId>
+      <handlingId>pd1</handlingId>
       <gameName>pd2</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>

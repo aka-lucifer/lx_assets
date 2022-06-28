@@ -3,7 +3,7 @@
 <CHandlingDataMgr>
   <HandlingData>
 	<Item type="CHandlingData"> 
-      <handlingName>TAURUS</handlingName>
+      <handlingName>sasp8</handlingName>
       <fMass value="3800.000000" />
       <fInitialDragCoeff value="6.000000" />
       <fPercentSubmerged value="85.000000" />

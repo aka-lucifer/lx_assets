@@ -3,7 +3,7 @@
 <CHandlingDataMgr>
   <HandlingData>
   <Item type="CHandlingData"><!--21DURA HANDLING STARTS HERE-->
-      <handlingName>so1</handlingName>
+      <handlingName>pd1</handlingName>
       <fMass value="2200.000000" />
       <fInitialDragCoeff value="8.000000" />
       <fPercentSubmerged value="85.000000" />
@@ -64,7 +64,7 @@
       </SubHandlingData>
     </Item><!--21DURA HANDLING ENDS HERE-->
   <Item type="CHandlingData">
-      <handlingName>priceFPIS</handlingName>
+      <handlingName>PDFPIU</handlingName>
       <fMass value="4805.000000" />
       <fInitialDragCoeff value="8.40000" />
       <fPercentSubmerged value="85.000000" />
@@ -125,7 +125,7 @@
       </SubHandlingData>
     </Item>
   <Item type="CHandlingData">
-      <handlingName>so9</handlingName>
+      <handlingName>pdtahoes</handlingName>
       <fMass value="3400.000000" />
       <fInitialDragCoeff value="8.500000" />
       <fPercentSubmerged value="85.000000" />
@@ -186,7 +186,7 @@
       </SubHandlingData>
     </Item>
   <Item type="CHandlingData">
-      <handlingName>so8</handlingName>
+      <handlingName>pdf150</handlingName>
       <fMass value="5400.000000" />
       <fInitialDragCoeff value="8.500000" />
       <fPercentSubmerged value="85.000000" />
@@ -308,7 +308,7 @@
       </SubHandlingData>
     </Item>
   <Item type="CHandlingData">
-      <handlingName>so4</handlingName>
+      <handlingName>pdchargers</handlingName>
       <fMass value="3550.000000" />
       <fInitialDragCoeff value="8.500000" />
       <fPercentSubmerged value="85.000000" />
