@@ -9,14 +9,14 @@
       <fPercentSubmerged value="85.000000" />
       <vecCentreOfMassOffset x="0.000000" y="0.100000" z="0.000000" />
       <vecInertiaMultiplier x="1.500000" y="1.750000" z="2.250000" />
-      <fDriveBiasFront value="0.400000" />
+      <fDriveBiasFront value="0.500000" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.248000" />
+      <fInitialDriveForce value="0.500000" />
       <fDriveInertia value="1.000000" />
       <fClutchChangeRateScaleUpShift value="5.000000" />
       <fClutchChangeRateScaleDownShift value="1.000000" />
       <fInitialDriveMaxFlatVel value="188.100000" />
-      <fBrakeForce value="0.238000" />
+      <fBrakeForce value="0.900000" />
       <fBrakeBiasFront value="0.260000" />
       <fHandBrakeForce value="1.000000" />
       <fSteeringLock value="25.00000" />

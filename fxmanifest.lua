@@ -6,6 +6,7 @@
 fx_version "adamant"
 game "gta5"
 
+dependency "/assetpacks"
 this_is_a_map "yes"
 
 files {
@@ -118,8 +119,8 @@ data_file "PTFXASSETINFO_FILE" "data/**/ptfxassetinfo.meta"
 data_file "WEAPONINFO_FILE" "data/**/weapons.meta"
 
 -- Clothing
-data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/addon_clothing/mp_m_freemode_01_addon_clothes_one.meta"
-data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/addon_clothing/mp_f_freemode_01_addon_clothes_one.meta"
+data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_m_freemode_01_addon_clothes_one.meta"
+data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta"
 
 -- Peds
 data_file "PED_METADATA_FILE" "data/peds/ped_pack/peds.meta"
