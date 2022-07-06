@@ -162,4 +162,22 @@ Citizen.CreateThread(function()
 
   -- [Weapons | Snipers]
   AddTextEntry("WEAPON_M700", "M700")
+
+  -- [Peds - Community Officer]
+  AddTextEntry("cofficer", "Community Officer")
+
+  -- [Peds - Custom_Pack]
+  AddTextEntry("obama", "Barrack Obama")
+  AddTextEntry("sam", "Samuel L Jackson")
+  AddTextEntry("skeleton", "Skeleton")
+  AddTextEntry("t800skel", "T800 Terminator (Skeleton)")
+  AddTextEntry("therock(nojeans)", "The Rock")
+  AddTextEntry("therock(jeans)", "The Rock (Jeans)")
+  AddTextEntry("thriller", "Michael Jackson")
+  AddTextEntry("tromp", "Donald Trump")
+
+  -- [Peds - Spongebob_Pack]
+  AddTextEntry("patrick", "Patrick")
+  AddTextEntry("spongebob", "Spongebob")
+  AddTextEntry("squidward", "Squidward")
 end)
