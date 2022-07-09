@@ -6,16 +6,9 @@
 fx_version "adamant"
 game "gta5"
 
-dependency "/assetpacks"
 this_is_a_map "yes"
 
 files {
-	-- Props
-
-  -- (SADOT Props)
-	"steam/props/sadot-props/pnwsigns.ytyp",
-	"data/props/sadot-props/gtxd.meta",
-
   -- Minimap (Interiors Loading)
   "data/minimap/interiors/**/*.gfx",
 
@@ -42,9 +35,6 @@ files {
   "data/vehicles/**/vehiclelayouts.meta", -- It is common belief that FiveM doesn"t support custom layouts, however this is false, you just have to load them last.
 	"data/vehicles/**/dlctext.meta",
 
-  -- Vehicle Plates
-  "data/plates/carcols.meta",
-
   -- Weapons
   "data/weapons/**/weaponcomponents.meta",
   "data/weapons/**/weaponarchetypes.meta",
@@ -60,7 +50,7 @@ files {
   "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta",
 
   -- Peds
-  "data/peds/ped_pack/peds.meta",
+  "data/peds/**/peds.meta",
 
   -- IPL Loading
   "client/ipls/mph4_gtxd.meta",
@@ -77,13 +67,9 @@ files {
 	"stream/sounds/vehicle_engines/**/**/*.awc"
 }
 
--- SADOT Props
-data_file "GTXD_PARENTING_DATA" "data/props/sadot-props/gtxd.meta"
-data_file "DLC_ITYP_REQUEST" "stream/props/sadot-props/pnwsigns.ytyp"
-
 -- Minimap (Interiors Loading)
 data_file "SCALEFORM_DLC_FILE" "data/minimap/interiors/**/*.gfx"
--- data_file "GTXD_PARENTING_DATA" "data/minimap/casino_interiors/int3232302352.gfx"
+data_file "GTXD_PARENTING_DATA" "data/minimap/casino_interiors/int3232302352.gfx"
 
 -- MLOs
 data_file "INTERIOR_PROXY_ORDER_FILE" "data/mlos/interiorproxies.meta"
@@ -104,10 +90,7 @@ data_file "CONTENT_UNLOCKING_META_FILE" "data/**/contentunlocks.meta"
 data_file "VEHICLE_SHOP_DLC_FILE" "data/**/shop_vehicle.meta" 
 data_file "VEHICLE_LAYOUTS_FILE" "data/**/vehiclelayouts.meta"
 
--- Vehicle Plates
-data_file "CARCOLS_FILE" "data/plates/carcols.meta"
-
--- Weapons
+-- -- Weapons
 data_file "EXPLOSION_INFO_FILE" "data/**/explosion.meta"
 data_file "WEAPONCOMPONENTSINFO_FILE" "data/**/weaponcomponents.meta"
 data_file "WEAPON_METADATA_FILE" "data/**/weaponarchetypes.meta"
@@ -123,7 +106,7 @@ data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_m_freemode_01_a
 data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta"
 
 -- Peds
-data_file "PED_METADATA_FILE" "data/peds/ped_pack/peds.meta"
+data_file "PED_METADATA_FILE" "data/peds/**/peds.meta"
 
 -- IPL Loading
 data_file "GTXD_PARENTING_DATA" "client/ipls/mph4_gtxd.meta"
@@ -147,21 +130,6 @@ data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_r352sound
 data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_game.dat"
 data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_sounds.dat"
 data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_npolchar"
-
--- (LEO) - Dodge Charger
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_npolchar"
-
--- (LEO) CVPI
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_cvpiv8"
-
--- (LEO) Taurus
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_ecoboostv6/ecoboostv6_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_ecoboostv6/ecoboostv6_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_ecoboostv6"
 
 -- Code
 client_scripts {
