@@ -126,10 +126,31 @@ data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_r352sound/d
 data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_r352sound/dlcr352sound_sounds.dat"
 data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_r352sound"
 
--- (CIV) - Dodge Challenger
-data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_game.dat"
-data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_npolchar/npolchar_sounds.dat"
-data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_npolchar"
+-- (CIV) - Lamborghini V10
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_lambov10/lambov10_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_lambov10/lambov10_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_lambov10"
+
+-- (CIV) - Lamborghini Aventador V12
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_m840trsenna/m840trsenna_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_m840trsenna/m840trsenna_sounds.dat"
+data_file "AUDIO_SYNTHDATA" "data/sounds/vehicle_engines/civilian/dlc_m840trsenna/m840trsenna_amp.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_m840trsenna"
+
+-- (CIV) - Lamborghini Aventador V12
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/civilian/dlc_aventadorv12/aventadorv12_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/civilian/dlc_aventadorv12/aventadorv12_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/civilian/dlc_aventadorv12"
+
+-- (LEO) - CVPI
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_cvpiv8/cvpiv8_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_cvpiv8"
+
+-- (LEO) - Dodge Charger
+data_file "AUDIO_GAMEDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_game.dat"
+data_file "AUDIO_SOUNDDATA" "data/sounds/vehicle_engines/police/dlc_npolchar/npolchar_sounds.dat"
+data_file "AUDIO_WAVEPACK" "stream/sounds/vehicle_engines/police/dlc_npolchar"
 
 -- Code
 client_scripts {
