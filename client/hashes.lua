@@ -45,7 +45,7 @@ Citizen.CreateThread(function()
   AddTextEntry("pd10", "(2021 | PD) - Dodge Durango")
 
   -- [Police | Shared (LEO)]
-  AddTextEntry("airone", "(Emergency) Airone")
+  AddTextEntry("airone", "(Emergency) Alaska AS350")
   AddTextEntry("mrap", "(Emergency | Full Armoured) MRAP")
 
   -- [Management]
