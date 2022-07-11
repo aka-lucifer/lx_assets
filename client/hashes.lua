@@ -3,7 +3,7 @@ RegisterCommand("mlo_tp", function()
 end)
 
 Citizen.CreateThread(function()
-  -- SASP
+  -- [Police | SASP]
   AddTextEntry("sasp1", "(2011 - SASP) Ford CVPI")
   AddTextEntry("sasp2", "(2014 - SASP) Chevrolet Tahoe")
   AddTextEntry("sasp3", "(2016 - SASP) Ford Explorer")
@@ -19,7 +19,7 @@ Citizen.CreateThread(function()
   AddTextEntry("sasp13", "(SASP) - BMW RT1200")
   AddTextEntry("sasp14", "(SASP) - Boston Whaler")
 
-  -- County (BCSO/LSSO)
+  -- [Police | County (BCSO/LSSO)]
   AddTextEntry("so1", "(2011 | SO) - Ford CVPI")
   AddTextEntry("so2", "(2013 | SO) - Chevrolet Caprice")
   AddTextEntry("so3", "(2013 | SO) - Ford Explorer")
@@ -30,8 +30,9 @@ Citizen.CreateThread(function()
   AddTextEntry("so8", "(2018 | SO) - Ford F-150")
   AddTextEntry("so9", "(2020 | SO) - Chevrolet Tahoe")
   AddTextEntry("so10", "(2021 | SO) - Dodge Durango")
+  AddTextEntry("leoatv", "(BCSO | LSSO) ATV")
 
-  -- PD (LSPD/BCPD)
+  -- [Police | PD (LSPD/BCPD)]
   AddTextEntry("pd1", "(2011 | PD) - Ford CVPI")
   AddTextEntry("pd2", "(2013 | PD) - Chevrolet Caprice")
   AddTextEntry("pd3", "(2013 | PD) - Ford Explorer")
@@ -43,14 +44,15 @@ Citizen.CreateThread(function()
   AddTextEntry("pd9", "(2020 | PD) - Chevrolet Tahoe")
   AddTextEntry("pd10", "(2021 | PD) - Dodge Durango")
 
-  -- County (BCSO/LSSO)
-  AddTextEntry("leoatv", "(BCSO | LSSO) ATV")
-
-  -- Shared (LEO)
+  -- [Police | Shared (LEO)]
   AddTextEntry("airone", "(Emergency) Airone")
   AddTextEntry("mrap", "(Emergency | Full Armoured) MRAP")
 
-  -- Community Police
+  -- [Management]
+  AddTextEntry("380sx", "(Management) Nissan 380SX Crazy")
+  AddTextEntry("thot", "(Management) Thot Patrol")
+
+  -- [Community Police]
   AddTextEntry("pubcop", "(Community Police) Ford Taurus")
   AddTextEntry("pubcop2", "(Community Police) Ford Explorer")
 
@@ -91,9 +93,6 @@ Citizen.CreateThread(function()
   AddTextEntry("na25", "(2011) Harley Davidson Road King")
   AddTextEntry("RK2019", "(2019) Harley Davidson Road King (Viclero)")
   AddTextEntry("indian", "(2019) Indian Chief Dark Horse")
-
-  -- [Civ | Management]
-  AddTextEntry("380sx", "(Management) Nissan 380SX Crazy")
 
   -- [Civ | Offroad]
   AddTextEntry("wheelchair", "Wheelchair")
