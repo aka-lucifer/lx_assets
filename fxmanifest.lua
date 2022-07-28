@@ -13,9 +13,9 @@ files {
   "data/minimap/interiors/**/*.gfx",
 
 	-- MLOs
-	"data/maps/interiorproxies.meta",
+	"data/maps/[MLOs]/interiorproxies.meta",
 
-  -- (TIMECYCLES)
+  -- ("data/maps/[MLOs]TIMECYCLES)
   "data/maps/[MLOs]/*.xml",
 
   -- (YTYP"s)
@@ -72,7 +72,7 @@ data_file "SCALEFORM_DLC_FILE" "data/minimap/interiors/**/*.gfx"
 data_file "GTXD_PARENTING_DATA" "data/minimap/casino_interiors/int3232302352.gfx"
 
 -- MLOs
-data_file "INTERIOR_PROXY_ORDER_FILE" "data/mlos/interiorproxies.meta"
+data_file "INTERIOR_PROXY_ORDER_FILE" "data/maps/[MLOs]/interiorproxies.meta"
 
 -- (TIMECYCLES)
 data_file "TIMECYCLEMOD_FILE" "data/maps/[MLOs]/*.xml"
