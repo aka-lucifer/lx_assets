@@ -46,8 +46,7 @@ files {
   "data/weapons/**/weapons.meta",
 
   -- Clothing
-  "data/clothing/[Addon]/mp_m_freemode_01_addon_clothes_one.meta",
-  "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta",
+  "data/clothing/*.meta",
 
   -- Peds
   "data/peds/**/peds.meta",
@@ -102,8 +101,7 @@ data_file "PTFXASSETINFO_FILE" "data/**/ptfxassetinfo.meta"
 data_file "WEAPONINFO_FILE" "data/**/weapons.meta"
 
 -- Clothing
-data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_m_freemode_01_addon_clothes_one.meta"
-data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/[Addon]/mp_f_freemode_01_addon_clothes_one.meta"
+data_file "SHOP_PED_APPAREL_META_FILE" "data/clothing/*.meta"
 
 -- Peds
 data_file "PED_METADATA_FILE" "data/peds/**/peds.meta"
