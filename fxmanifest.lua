@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------
--- Astrid Network Assets
+-- AfterHours Network Assets
 -- Designed & Written By akaLucifer#0103
 -- Releasing or Claiming this as your own is against, this resources License
 ------------------------------------------------------------------------------------

@@ -129,6 +129,7 @@ Citizen.CreateThread(function()
   AddTextEntry("gmc1500", "(1997) GMC Sierra 1500 Custom")
   AddTextEntry("silverado99", "(1999) Chevrolet Silverado 3500 LS")
   AddTextEntry("430s", "(2007) Ferrari 430 Scuderia")
+  AddTextEntry("chevc20", "(1965) Chevrolet C-20")
 
   -- [Civ | Super]
   AddTextEntry("430s", "(2007) Ferrari 430 Scuderia")
